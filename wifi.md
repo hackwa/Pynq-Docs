@@ -2,7 +2,7 @@
 Steps to use usb wifi Dongle on Pynq -
 
 **Method 1 - Using Python**  
-`(sudo python3.6)`  
+`sudo python3.6`  
 `from pynq.lib.usb_wifi import Usb_Wifi`  
 `Usb_Wifi().connect("ssid_name", "passphrase")`    
   
